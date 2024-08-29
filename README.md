@@ -1,3 +1,4 @@
+# MIT uploader
 Skript pro nahrání .hex souboru do výukového přípravku s procesorem ATMEGA2560 v předmětu Mikroprocesorová technika. Automaticky detekuje, na kterém COM portu je připjen přípravek a automaticky doplní cestu k hex filu. Programování pak probíhá jen jedním kliknutím.
 
 **Použití:**
