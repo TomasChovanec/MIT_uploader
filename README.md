@@ -1,8 +1,8 @@
 # MIT uploader
-Skript pro nahrání .hex souboru do výukového přípravku s procesorem ATMEGA2560 v předmětu Mikroprocesorová technika. Automaticky detekuje, na kterém COM portu je připjen přípravek a automaticky doplní cestu k hex filu. Programování pak probíhá jen jedním kliknutím.
+Skript pro nahrání .hex souboru do výukového přípravku s procesorem ATMEGA2560 v předmětu Mikroprocesorová technika. Automaticky detekuje, na kterém COM portu je připojen přípravek a automaticky doplní cestu k hex souboru. Programování pak probíhá jen jedním kliknutím.
 
 **Použití:**
-Uložte do počítače skript. Buď jako klasický python script, pak je ale potřeba doinstalovat potřebné knihovny. Preferované je použít exe verzi (složka executable), která má všechny knihovny zabalené u sebe.
+Uložte do počítače skript. Buď jako klasický python script (.py), pak je ale potřeba doinstalovat potřebné knihovny. Preferované je použít exe verzi (složka executable), která má všechny knihovny zabalené u sebe.
 
 V Atmel studiu zvolte *Custom programming tool*. Do položky command doplňte následující příkaz, ve kterém upravíte cestu ke skriptu.
 
