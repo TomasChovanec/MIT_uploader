@@ -7,7 +7,7 @@ Uložte do počítače skript. Buď jako klasický python script (.py), pak je a
 V Atmel studiu zvolte *Custom programming tool*. Do položky command doplňte následující příkaz, ve kterém upravíte cestu ke skriptu.
 
 ```
-"cesta_k_exe_souboru_MIT_uploader.exe" "$(OutputDirectory)\$(OutputFileName).hex"
+""D:\Programy\MIT_uploader\MIT_uploader.exe"" "$(OutputDirectory)\$(OutputFileName).hex"
 ```
 
 
