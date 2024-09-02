@@ -4,7 +4,7 @@ Skript pro nahrání .hex souboru do výukového přípravku s procesorem ATMEGA
 **Použití:**
 Uložte do počítače skript. Buď jako klasický python script (.py), pak je ale potřeba doinstalovat potřebné knihovny. Preferované je použít exe verzi (složka executable), která má všechny knihovny zabalené u sebe.
 
-V Atmel studiu zvolte *Custom programming tool*. Do položky command doplňte následující příkaz, ve kterém upravíte cestu ke skriptu.
+V Microchip studiu zvolte *Custom programming tool*. Do položky command doplňte následující příkaz, ve kterém upravíte cestu ke skriptu. Cestu k hex souboru doplní Microchip studio automaticky.
 
 ```
 "D:\Programy\MIT_uploader\MIT_uploader.exe" "$(OutputDirectory)\$(OutputFileName).hex"
